@@ -9,11 +9,22 @@ int main() {
     cout << "*" << (a*b) << endl;   //15
     cout << "/" << (b/a) << endl;   //1
     cout << "%" << (a%b) << endl;   //Module (remainder) :2
-    
+
+    int a=3;
+    a++;    //(post) use & then update
+    cout <<"a=" << a << endl;
+    a--;    //(post)
+    cout << "a=" << a << endl;
+
+    return 0;
+
+    int b=4;
+    ++b; //(pre) update & then use
+    cout <<"b=" << b << endl;
+    --b; //(pre)
+    cout << "b=" << b << endl;
     return 0;
 }
-
-
 //Symbols that tell compiler to perform some operation (a + b)
 //Type Of Operator
 // -Arithmetic => 1) Bimary(+, -, *, /, %), 2) Unary(++, --)
@@ -22,3 +33,5 @@ int main() {
 // -Logical
 // -Bitwise
 
+
+//Assignment Operators(=, +=, -=, *=, /=)
